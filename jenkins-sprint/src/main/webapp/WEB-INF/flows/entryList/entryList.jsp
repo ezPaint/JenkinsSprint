@@ -27,16 +27,7 @@
 				<button type="submit" class="btn btn-default">Add Entry</button>
 			</form>
 
-<%-- 		<c:if test="${queue.size != 0}">
-			<table class="table table-stripped">
-				<c:forEach items="${queue}" var="e">
-					<tr>
-				    	<td>${e.partyName}</td>
-				    	<td>${e.partyNumber}</td>
-					</tr>
-				</c:forEach>
-			</table>
-		</c:if> --%>
+			<p>I made a change</p>
 		
 		</div>
 	</div>

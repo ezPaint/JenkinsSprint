@@ -20,6 +20,7 @@ public class QueueTest {
 
 	@Test
 	public void testPush() {
+		// OMG COMMENTS TO ADD
 		assertTrue(q.getSize() == 3);
 		assertEquals(q.pop().getPartyName(), "nick");
 		assertEquals(q.pop().getPartyName(), "ross");

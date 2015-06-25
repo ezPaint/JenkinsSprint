@@ -26,8 +26,6 @@
 				</div>
 				<button type="submit" class="btn btn-default">Add Entry</button>
 			</form>
-
-			<p>I made a change</p>
 		
 		</div>
 	</div>

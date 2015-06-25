@@ -27,7 +27,7 @@
 				<button type="submit" class="btn btn-default">Add Entry</button>
 			</form>
 
-			<p>I made a change in a push</p>
+			<p>I made a change in a push, v2</p>
 		
 		</div>
 	</div>

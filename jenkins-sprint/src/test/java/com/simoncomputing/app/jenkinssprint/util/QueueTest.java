@@ -25,7 +25,7 @@ public class QueueTest {
 		assertTrue(q.getSize() == 3);
 		q.push(new Entry("test", "8"));
 		assertTrue(q.getSize() == 4);
-		assertEquals(q.pop().getPartyName(), "nick");
+		assertEquals(q.pop().getPartyName(), "fail");
 		assertEquals(q.pop().getPartyName(), "ross");
 		assertEquals(q.pop().getPartyName(), "jane");
 		assertEquals(q.pop().getPartyName(), "test");

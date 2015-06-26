@@ -12,7 +12,7 @@ public class QueueTest {
 
 	@Before
 	public void setUp() throws Exception {
-		//Adding this comment to test pushing!!
+		//Adding this comment to test pushing!! another test
 		q = new Queue<Entry>();
 		q.push(new Entry("nick","4"));
 		q.push(new Entry("ross","2"));

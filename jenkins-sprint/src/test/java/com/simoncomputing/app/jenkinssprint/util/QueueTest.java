@@ -22,9 +22,12 @@ public class QueueTest {
 	public void testPush() {
 		// OMG COMMENTS TO ADD
 		assertTrue(q.getSize() == 3);
+		q.push(new Entry("test", "8"));
+		assertTrue(q.getSize() == 4);
 		assertEquals(q.pop().getPartyName(), "nick");
 		assertEquals(q.pop().getPartyName(), "ross");
 		assertEquals(q.pop().getPartyName(), "jane");
+		assertEquals(q.pop().getPartyName(), "test");
 	}
 
 	@Test
@@ -39,8 +42,11 @@ public class QueueTest {
 	@Test
 	public void testPop() {
 		assertEquals(q.pop().getPartyName(), "nick");
+		assertTrue(q.getSize() == 2);
 		assertEquals(q.pop().getPartyName(), "ross");
+		assertTrue(q.getSize() == 1);
 		assertEquals(q.pop().getPartyName(), "jane");
+		assertTrue(q.getSize() == 0);
 	}
 
 }

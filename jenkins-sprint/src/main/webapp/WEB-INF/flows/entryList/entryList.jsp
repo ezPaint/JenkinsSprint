@@ -27,7 +27,7 @@
 				<button type="submit" class="btn btn-default">Add Entry</button>
 			</form>
 			
-			<p>Look I made A change</p>
+			<p>Look I made A change in simon's office</p>
 		
 		</div>
 	</div>

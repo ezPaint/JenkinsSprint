@@ -36,7 +36,7 @@ public class QueueTest {
 		assertEquals(q.peek().getPartyName(), "nick");
 		q.pop();
 		assertEquals(q.peek().getPartyName(), "ross");
-		q.pop();
+		//q.pop();
 		assertEquals(q.peek().getPartyName(), "jane");
 	}
 
